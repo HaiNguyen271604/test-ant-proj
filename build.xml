@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="test-ant-proj" basedir="." default="test-ant-proj">
+
+    <target name="test-ant-proj" description="zip">
+        <zip destFile="test-ant-proj.zip" 
+        	 basedir=".">
+        	<include name="scripts/*"/>
+        </zip>
+    </target>
+
+</project>
